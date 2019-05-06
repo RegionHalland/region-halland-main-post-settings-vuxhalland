@@ -1,0 +1,13 @@
+{
+    "name": "regionhalland/region-halland-main-post-settings-vuxhalland",
+    "description": "Inställningar för post-sidan för vuxhalland",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland Hydén",
+            "email": "Roland.Hyden@Regionhalland.se"
+        }
+    ],
+    "require": {}
+}
