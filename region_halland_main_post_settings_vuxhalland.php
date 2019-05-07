@@ -144,9 +144,15 @@
 			$field_link 		= get_field_object('field_1000003', $page->ID);
 			
 			// Spara ner ACF-data i page-arrayen
-			$page->link_title 	= $field_link['value']['title'];
-			$page->link_url 	= $field_link['value']['url'];
-			$page->link_target 	= $field_link['value']['target'];
+			if (isset($field_link['value']['title'])) {
+				$page->link_title 	= $field_link['value']['title'];
+				$page->link_url 	= $field_link['value']['url'];
+				$page->link_target 	= $field_link['value']['target'];
+			} else {
+				$page->link_title 	= "";
+				$page->link_url 	= "";
+				$page->link_target 	= "";
+			}
 
 			// Lägg till sidans url 	
 			$page->url = get_page_link($page->ID);

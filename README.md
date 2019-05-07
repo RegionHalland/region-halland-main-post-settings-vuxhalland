@@ -53,5 +53,8 @@ OBS! Justera så att du hämtar aktuell version.
 
 ## Versionhistorik
 
+### 1.0.1
+- Hämta bara ut länk om den finns
+
 ### 1.0.0
 - Första version
