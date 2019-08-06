@@ -6,9 +6,9 @@
 	/*
 	Plugin Name: Region Halland Main Post Settings Vuxhalland
 	Description: ACF-fält för extra fält nederst på en page-sida
-	Version: 1.0.0
+	Version: 1.1.0
 	Author: Roland Hydén
-	License: MIT
+	License: GPL-3.0
 	Text Domain: regionhalland
 	*/
 

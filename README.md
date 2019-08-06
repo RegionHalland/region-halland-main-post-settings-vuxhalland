@@ -10,6 +10,13 @@ Nedan följer instruktioner hur du kan använda pluginet "region-halland-main-po
 Denna plugin skapar extra-fält nederst på en post-sida
 
 
+## Licensmodell
+
+Denna plugin använder licensmodell GPL-3.0. Du kan läsa mer om denna licensmodell via den medföljande filen:
+```sh
+LICENSE (https://github.com/RegionHalland/region-halland-main-post-settings-vuxhalland/blob/master/LICENSE)
+```
+
 ## Installation och aktivering
 
 ```sh
@@ -52,6 +59,10 @@ OBS! Justera så att du hämtar aktuell version.
 
 
 ## Versionhistorik
+
+### 1.1.0
+- Lagt till information om licensmodell
+- Bifogat fil med licensmodell
 
 ### 1.0.1
 - Hämta bara ut länk om den finns
